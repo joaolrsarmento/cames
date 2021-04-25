@@ -411,9 +411,9 @@ set(gca,'XTick',0:30:360,'YLim',[-5,50],'XLim',[0,360],...
 
 %% Entrar com os valores dos raios do rolete e do círculo base
 
-r_rolete = 1.125*25.4/2;    % AJUSTAR !!!
+r_rolete = 1.125*15/2;    % ajustei aqui
 
-r_base = 2.375*25.4/2;      % AJUSTAR !!!
+r_base = 2.375*18/2;      % ajustei aqui
 
 r_principal = r_base + r_rolete;
 
