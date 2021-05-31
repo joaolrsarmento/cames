@@ -1,7 +1,7 @@
 % Instituto Tecnológico de Aeronáutica
 % Engenharia Mecânica-Aeronáutica
 % MPD-11 - Dinâmica de máquinas
-% Prof. Dr. Thiago de Paula Sales
+% Aluno: João Sarmento
 % 
 % Laboratório 3 - Dinâmica de cames
 % 
@@ -76,6 +76,7 @@ ft = fittype({'x'});    % função do tipo y = a*x
 %% Determinar o ajuste do modelo escolhido aos dados experimentais
 
 [cf, G] = fit(delta_L,W,ft);
+cf
 
 %% Determinar os coeficientes a/b relacionados ao ajuste realizado
 
